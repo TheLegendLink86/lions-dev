@@ -1,3 +1,4 @@
+
 const readline = require('readline')
 
 const rl = readline.createInterface({
@@ -34,6 +35,10 @@ function exibirMenu() {
              break
             case '5':
                 rl.close()
+                break
+            case 'murilo':
+                console.log('pare caraaa')
+                exibirMenu()
                 break
             default:
                 console.log('Opção inválida, tente novamente.')
